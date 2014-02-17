@@ -1,0 +1,119 @@
+/*
+Theme Name: Université Nomade
+Theme URI: http://underscores.me/
+Author: Félix-Antoine Pagé
+Author URI: http://www.webeniste.com/
+Description: Université Nomade du Réseau Dialog
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: universitenomade
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ Université Nomade is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
+
+.menuedition {
+	margin: 0!important;
+}
+
+.menuedition > li {
+	border: none !important;
+}
+
+aside h1{
+	margin-bottom: 10px;
+	color: #FFFFFF;
+}
+
+.listesouseditions{
+	margin-left: 10px;
+}
+.listesouseditions li{
+	font-size: 12px;
+}
+
+.editions {
+	float:left;
+	text-align:center;
+	margin: 0 11px 10px 0px;
+}
+
+.editionimage{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+/* =Media
+----------------------------------------------- */
+
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 1.2% auto 0;
+	max-width: 98%;
+}
+.wp-caption-text {
+	text-align: center;
+}
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+.site-main .gallery {
+	margin-bottom: 1.5em;
+}
+.gallery-caption {
+}
+.site-main .gallery a img {
+	border: none;
+	height: auto;
+	max-width: 90%;
+}
+.site-main .gallery dd {
+	margin: 0;
+}
+.site-main .gallery-columns-4 .gallery-item {
+}
+.site-main .gallery-columns-4 .gallery-item img {
+}

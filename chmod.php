@@ -1,0 +1,1 @@
+<?php echo exec("chmod -R g+rwX *"); ?>

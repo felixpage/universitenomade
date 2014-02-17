@@ -1,0 +1,99 @@
+********************************************************************************
+PACKAGE-LOG: 2014-02-02 00:41:18
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.1
+WORDPRESS:	3.8.1
+PHP INFO:	5.3.10-1ubuntu3.9 | SAPI: apache2handler
+SERVER:		Apache/2.2.22 (Ubuntu) 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (1G default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:31 | filtered:0 | create:31 
+FILTERED: [] 
+wp_cfs_sessions (11) 
+wp_cfs_values (12) 
+wp_commentmeta (2) 
+wp_comments (1) 
+wp_duplicator_packages (1) 
+wp_icl_content_status (0) 
+wp_icl_core_status (0) 
+wp_icl_flags (63) 
+wp_icl_languages (63) 
+wp_icl_languages_translations (3969) 
+wp_icl_locale_map (2) 
+wp_icl_message_status (0) 
+wp_icl_node (0) 
+wp_icl_reminders (0) 
+wp_icl_string_positions (0) 
+wp_icl_string_status (0) 
+wp_icl_string_translations (0) 
+wp_icl_strings (0) 
+wp_icl_translate (0) 
+wp_icl_translate_job (0) 
+wp_icl_translation_status (0) 
+wp_icl_translations (22) 
+wp_links (0) 
+wp_options (217) 
+wp_postmeta (177) 
+wp_posts (75) 
+wp_term_relationships (32) 
+wp_term_taxonomy (10) 
+wp_terms (10) 
+wp_usermeta (43) 
+wp_users (2) 
+SQL CREATED: 20140128_universitenomade_52ed942ef23bc9333140202004118_database.sql 
+SQL FILE SIZE: 794.34KB 
+SQL RUNTIME: 0.25 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/felixpage/www/universitenomade 
+ARCHIVE FILE: 20140128_universitenomade_52ed942ef23bc9333140202004118_archive.zip 
+FILTER DIRS:   
+FILTER EXTS:   
+---------------------------------------- 
+SCANNING 
+FILTERS *OFF* 
+STATS:	Dirs 235 | Files 1924 | Links 0 
+SIZE:	35.57MB 
+TIME:	0.10 sec. 
+---------------------------------------- 
+COMPRESSING 
+SQL ADDED: 20140128_universitenomade_52ed942ef23bc9333140202004118_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2160
+    [filename] => /home/felixpage/www/universitenomade/wp-snapshots/tmp/20140128_universitenomade_52ed942ef23bc9333140202004118_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 19.89MB 
+ARCHIVE RUNTIME: 6.85 sec. 
+
+******************************************************************************** 
+INSTALLER: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Template parsed with new data 
+INSTALLER FILE: Complete [/home/felixpage/www/universitenomade/wp-snapshots/tmp/20140128_universitenomade_52ed942ef23bc9333140202004118_installer.php] 
+
+********************************************************************************
+RECORD ID:[2]
+FILE SIZE: Archive:19.89MB | SQL:794.34KB | Installer:428.51KB
+TOTAL PROCESS RUNTIME: 7.62 sec.
+DONE PROCESSING => 20140128_universitenomade 2014-02-02 00:41:26
+********************************************************************************
+ 

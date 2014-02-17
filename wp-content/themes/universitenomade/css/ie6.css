@@ -1,0 +1,38 @@
+/* ------------------------------------------------------------------------
+	Double Margin Bug
+------------------------------------------------------------------------- */
+
+	#header .content { bottom: -1px; }
+
+	#menu .menu { margin-left: 17px; }
+
+	.detail_box {
+		overflow: hidden;
+		width: 204px;
+	}
+
+	#sitemap .content {
+		float: left;
+		padding-left: 24px;
+		padding-bottom: 10px;
+	}
+	
+	#footer p { margin-left: 15px; }
+	#footer ul { margin-right: 15px; }
+	
+	.inside .content-container .right-col form.search fieldset.expando h3,
+	.inside .content-container .right-col form.search fieldset.expando {
+		margin-left: -15px;
+		width: 220px;
+	}
+	
+	.inside .content-container .content form.search fieldset.expando h3 { margin-left: -12px; }
+	
+	.inside .content-container .content form.search fieldset.terms .term_1 input { margin-right: 2px; }
+	
+	.inside .content-container .content form.search fieldset.terms .controls { margin-right: 8px; }
+	
+	.inside .content-container .content form.search fieldset.filter select {
+		clear: left;
+		margin-bottom: 5px;
+	}
