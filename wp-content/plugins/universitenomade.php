@@ -25,10 +25,10 @@
 
 
 
-  add_filter('custom_menu_order', 'UniversiteNoamde_custom_menu_order');
-  add_filter('menu_order', 'UniversiteNoamde_custom_menu_order');
+  add_filter('custom_menu_order', 'universitenomade_custom_menu_order');
+  add_filter('menu_order', 'universitenomade_custom_menu_order');
 
-   function UniversiteNoamde_custom_menu_order($menu_ord) {
+   function universitenomade_custom_menu_order($menu_ord) {
        if (!$menu_ord) return true;
        return array(
        		'index.php',
@@ -41,8 +41,8 @@
 
 
 
-    add_action('admin_init', 'rw_remove_dashboard_widgets');
-    function rw_remove_dashboard_widgets() {
+    add_action('admin_init', 'universitenomade_remove_dashboard_widgets');
+    function universitenomade_remove_dashboard_widgets() {
         remove_action('welcome_panel', 'wp_welcome_panel');
         remove_meta_box('dashboard_welcome-panel', 'dashboard', 'normal'); 
         remove_meta_box('dashboard_activity', 'dashboard', 'normal'); 
